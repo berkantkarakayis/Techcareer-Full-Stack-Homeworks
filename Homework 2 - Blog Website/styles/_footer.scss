@@ -1,0 +1,48 @@
+@import 'navbar';
+@import 'colors';
+@import 'media-queries';
+
+
+.footer {
+    background-color: $light; /* Footer arkaplan rengi */
+    color: $dark; /* Footer metin rengi */
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-list-item {
+    margin: 12.5px 16.5px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-list-item:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-list-item a {
+    color: $dark; /* Footer içindeki linklerin rengi */
+    text-decoration: none;
+    font-size: 24px; /* Linklerin font büyüklüğü */
+  }
+  
+  .footer-list-item a:hover {
+    color: $blue; /* Hover rengi */
+    transition: color 0.3s ease; /* Hover geçişi */
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  

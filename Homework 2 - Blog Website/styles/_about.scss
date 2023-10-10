@@ -1,0 +1,36 @@
+@import 'navbar';
+@import 'colors';
+@import 'media-queries';
+
+.main {
+    color: $blue;
+    height: 498px;
+    width: 1140px;
+    max-width: 800px;
+    margin: 0 auto; /* Ortalıyoruz */
+    padding: 20px;
+}
+  
+.context {
+    margin: 32px;
+    color: $dark;
+    font-size: 20px;
+    align-items: center;
+    text-align: left;
+  
+    @include mobile {
+    font-size: 1.5rem;
+    }
+}
+  
+  
+.context p {
+    font-family: 'Lora', serif;
+    display: block;
+    margin: 30px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+  
